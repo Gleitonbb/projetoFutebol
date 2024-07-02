@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Usuarios</title>
+    <link rel="stylesheet" href="Usuarios_style.css">
+</head>
+<body>
+    <div class="caixaFundo">
+        <div class="caixaOrganisaDiv">
+            <h1 class="caixTitulo">Cadastro de Usuarios</h1>
+            <div class="organizaImagem">
+              <img src="imagem/mamutebranco.png" alt="" class="CaixImagem">  
+            </div>
+            
+            <div class="OrganisaInputLabel">
+                <label class="caiLabel">Nome</label>
+                <input type="text" name="txtNome" id="txtNome" class="formatoInput" required>
+            </div>
+
+            <div class="OrganisaInputLabel">
+                <label class="caiLabel">Telefone</label>
+                <input type="text" name="txtFone" id="txtFone" class="formatoInput" required>
+            </div>
+
+            <div class="OrganisaInputLabel">
+                <label class="caiLabel">E-mail</label>
+                <input type="email" name="txtEmail" id="txtEmail" class="formatoInput" required>
+            </div>
+
+            <div class="OrganisaInputLabel">
+                <label class="caiLabel">Usuario</label>
+                <input type="text" name="txtUsuario" id="txtUsuario" class="formatoInput" required>
+            </div>
+            
+            <div class="OrganisaInputLabel">
+                <label class="caiLabel">Senha</label>
+                <input type="text" name="txtSenha" id="txtSenha" class="formatoInput" required>
+            </div>
+
+            <div class="organisaBotoes">
+                 <button id="botaoEnviar" class="botaoEnviar">Enviar</button>
+                 <button id="botaoLogin" class="botaoLogin">ir para login</button>
+            </div>
+
+        </div>
+    </div>
+    <script src="cadastroUsuarios.js"></script>
+</body>
+</html>
