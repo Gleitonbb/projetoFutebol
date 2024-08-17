@@ -3,12 +3,114 @@
     margin: 0px;
     padding: 0px;
 }
+body{
+    background-color: rgba(182, 183, 184, 0.747);  
+}
 .caixaMae{
-    background-color: rgb(187, 35, 35);
+    background-color: rgba(182, 183, 184, 0.747);
+    height: 160vh;
+    font-size: 90%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+   
+}
+.organisaResultados{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    width: 100%;
+}
+.organisaDivTimes{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: row;
+}
+.organisaSomenteCaixaTimes{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column; 
+    width: 40%;
+}
+.imgTamanho{
+    width: 30px;
+}
+.NomeAndImagem{
+    background-color: rgb(153, 154, 155);
+    border: 3px solid rgb(164, 166, 167);
+    width: 95%;  
+    margin: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
-    font-size: 3em;
-    color: rgb(255, 255, 255);
+    cursor: pointer;
+    
+}
+.NomeAndImagem:hover{
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.445);
+}
+.CaixaDeCaixaTimes{
+    background-color: rgb(119, 122, 124);
+    border: 3px solid rgb(63, 64, 65);
+    width: 80%;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.CaixaTimeEscolhido{
+    background-color: rgb(119, 122, 124);
+    border: 3px solid rgb(63, 64, 65);
+    width: 30%;
+    height: 15vh;
+}
+.organisaBotoes{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: column;
+    width: 20%;
+    margin: 5px;
+}
+.BotaoEstilo{
+    border: 3px solid rgb(58, 73, 88);
+    background-color: rgb(63, 110, 156);
+    border-radius: 10px;
+    color: white;
+    width: 100%;
+    height: 5vh;
+    margin: 5px;
+    cursor: pointer;
+   
+}
+.CaixaResultadoParcial{
+    border: 3px solid rgb(63, 64, 65);
+    background-color: rgba(125, 125, 126, 0.747);
+    width: 20%;
+    height: 15vh;
+    border-radius: 50%;
+}
+.CaixaTitulo{
+    font-size: 1.5em;
+    color: rgb(44, 156, 190);
+    margin: 30px;
+    margin-top: 30px;
+}
+
+.destacar01{
+    background-color: rgb(146, 184, 209);
+    border: 3px solid rgb(55, 134, 212);
+}
+.destacar02{
+    background-color: rgb(146, 184, 209);
+    border: 3px solid rgb(55, 134, 212);
+}
+.destacar03{
+    background-color: rgb(146, 184, 209);
+    border: 3px solid rgb(55, 134, 212);
+}
+.destacar04{
+    background-color: rgb(146, 184, 209);
+    border: 3px solid rgb(55, 134, 212);
 }

@@ -17,15 +17,16 @@ try{
   if(!response.ok) {
     throw new Error("erro ao fazer login")
   }
-  const { token } = await response.json()
+  const { token, tenantId } = await response.json()
   // Armazenar o token JWT no localStorage
   localStorage.setItem("token", token)
-  
+  localStorage.setItem("tenantId", tenantId)
   window.location.href = "jogador.html"
 }catch(error){
     console.error('Erro:', error.message);
     alert('Usuário ou senha incorretos.');
 }
+localStorage.setItem("tenantId", tenantId)
 }
 
 

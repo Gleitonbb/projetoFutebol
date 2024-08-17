@@ -1,0 +1,147 @@
+*{
+    border: none;
+    margin: 0px;
+    padding: 0px;
+}
+.caixaMae{
+    background-color: rgba(255, 255, 255, 0.747);
+    height: 130vh;
+    font-size: 90%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.organisaCaixas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    /* flex-direction: row; */
+    width: 100%;
+}
+.organisaTimes{
+    border: 3px solid rgb(122, 122, 122);
+    background-color: rgb(177, 177, 177);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 20px;
+    width: 30%;
+    height: 10vh;
+    margin: 10px;
+}
+.DivNomeTimes{
+    font-size: 1.5em;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.organisaTimesEscolhido{
+    border: 3px solid rgb(122, 122, 122);
+    background-color: rgb(177, 177, 177);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 10px;
+    margin: 10px;
+}
+.CaixaTimesEscolhidos{
+    border: 3px solid rgb(122, 122, 122);
+    background-color: rgb(177, 177, 177);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: 5px;
+    width: 15%;
+    height: 8vh;
+
+    
+}
+
+.botaoEstilo{
+    border: 2px solid rgb(58, 57, 57);
+    background-color: rgb(95, 95, 95);
+    color: white;
+    font-size: 100%;
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 5%; 
+}
+.botaoEstilo:hover{
+    font-size: 88%;
+    padding: 7px;
+    color: black;
+    box-shadow: 5px 0px 5px rgba(0, 0, 0, 0.568);
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+.timeNome{
+    padding-left: 15px;
+}
+.paragrafo_X{
+    color: black;
+    font-size: 150%;
+}
+.destacar01{ /*muda a cor ao clicar */
+   border: 2px solid rgb(226, 101, 101);
+   background-color: rgb(226, 179, 147);
+   padding: 8px;
+}
+.destacar02{ /*muda a cor ao clicar */
+    border: 2px solid rgb(226, 101, 101);
+    background-color: rgb(226, 179, 147);
+    padding: 8px;
+ }
+ .destacar03{ /*muda a cor ao clicar */
+    border: 2px solid rgb(226, 101, 101);
+    background-color: rgb(226, 179, 147);
+    padding: 8px;
+ 
+ }
+ .destacar04{ /*muda a cor ao clicar */
+    border: 2px solid rgb(226, 101, 101);
+    background-color: rgb(226, 179, 147);
+    padding: 8px;
+ 
+ }
+ .caixaTimes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+ }
+
+img{
+    width: 20%;
+    margin-right: 15px;
+    margin-left: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.organisaBotao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.BotaoEnviarTimes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(9, 48, 99);
+    background-color: rgb(102, 163, 233);
+    border-radius: 15px;
+    font-size: 2em;
+    padding: 10px;
+    margin-right: 15%;
+    cursor: pointer;
+
+}
+#txtTime{
+    width: 50%;
+}
